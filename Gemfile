@@ -1,9 +1,13 @@
 source "https://rubygems.org"
 
-# For builtin Login, Signup Management
+# For Authentication Login, Signup Management
 gem "devise"
 
+# For rails console
 gem "fiddle"
+
+# For Authorization
+gem "pundit"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 8.1.3"
